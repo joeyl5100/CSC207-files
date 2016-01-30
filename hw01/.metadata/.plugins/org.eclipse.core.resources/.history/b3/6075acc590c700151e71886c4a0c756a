@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class CaesarCipher {
+
+	public static void encrypt(){
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("This program encrypts and decrypts messages using " +
+				"the Caesar Cipher.");
+		System.out.println("Would you like to encode or decode a message?");
+		String response = scan.nextLine();
+		while(!(response.equals("encode") || response.equals("decode"))){
+			System.out.println("Valid options are \"encode\" or \"decode\"");
+			response = scan.nextLine();
+		}
+		System.out.println(response);
+		scan.close();
+	}
+
+}
