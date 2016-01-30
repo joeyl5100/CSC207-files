@@ -26,7 +26,7 @@ public class VigenereCipher {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("This program encrypts and decrypts messages using " +
-				"the Vigenere Cipher.");
+				"the Caesar Cipher.");
 		System.out.println("Would you like to encode or decode a message?");
 		String response = scan.nextLine();
 		while(!(response.equals("encode") || response.equals("decode"))){
