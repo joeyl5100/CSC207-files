@@ -16,15 +16,7 @@ public class CaesarCipher {
 	}
 	
 	public static void decrypt(String str){
-		char[] charArray = str.toCharArray();
-		int base = (int) 'a';
-		for(int i = 0; i < 26; i++){
-			for(int j = 0; j < charArray.length; j++){
-				charArray[j] = (char)((((((int)str.charAt(j) - base) - i) + 26) % 26) + base);
-			}
-			System.out.println("n = " + i + ": " + new String(charArray));
-			charArray = str.toCharArray();
-		}
+	
 	}
 	
 	public static void main(String[] args) {
