@@ -1,0 +1,65 @@
+import java.util.Scanner;
+
+public class CaesarCipher {
+
+	// Encrypts string parameter
+	public static void encrypt(String str){
+		char[] charArray = str.toCharArray();
+		int base = (int) 'a';
+		int charToInt;
+		// Loop through all letters, adding key to each char
+		for(int i = 0; i < 26; i++){
+			for(int j = 0; j < charArray.length; j++){
+				charToInt = ((int)str.charAt(j) - base);
+				charArray[j] = (char)(((charToInt + i) % 26) + base);
+			}
+			System.out.println("n = " + i + ": " + new String(charArray));
+			charArray = str.toCharArray();
+		}
+	}
+	
+	// Decrypts string parameter
+	public static void decrypt(String str){
+		char[] charArray = str.toCharArray();
+		int base = (int) 'a';
+		int charToInt;
+		// Loop through all letters, subtracting key from each char
+		for(int i = 0; i < 26; i++){
+			for(int j = 0; j < charArray.length; j++){
+				charToInt = ((int)str.charAt(j) - base);
+				charArray[j] = (char)((((charToInt - i) + 26) % 26) + base);
+			}
+			System.out.println("n = " + i + ": " + new String(charArray));
+			charArray = str.toCharArray();
+		}
+	}
+	
+	//Encode or Decode strings using Caesar Cipher
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		//User prompt
+		System.out.println("This program encrypts and decrypts messages using " +
+				"the Caesar Cipher.");
+		System.out.println("Would you like to encode or decode a message?");
+		String response = scan.nextLine();
+		while(!(response.equals("encode") || response.equals("decode"))){
+			System.out.println("Valid options are \"encode\" or \"decode\"");
+			response = scan.nextLine();
+		}
+		
+		if(response.equals("encode")){
+			System.out.println("Enter the string to encode:");
+			response = scan.nextLine();
+			encrypt(response);
+		}
+		else{
+			System.out.println("Enter the string to decode:");
+			response = scan.nextLine();
+			decrypt(response);
+		}
+			
+		scan.close();
+	}
+
+}

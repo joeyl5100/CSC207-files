@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class VigenereCipher {
-	public static final int BASE = (int) 'a';
-
+	public static final int BASE = (int)'a';
+	
 	public static void encrypt(String str, String key) {
 		char[] charArray = str.toCharArray();
 		int keyAddTo, charToInt;
@@ -37,6 +37,7 @@ public class VigenereCipher {
 			System.out.println("Valid options are \"encode\" or \"decode\"");
 			response = scan.nextLine();
 		}
+
 		if (response.equals("encode")) {
 			System.out.println("Enter the string to encode:");
 			response = scan.nextLine();

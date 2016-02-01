@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CaesarCipher {
-	public static final int BASE = (int) 'a';
+	public static final int BASE = (int)'a';
 
 	public static void encrypt(String str) {
 		char[] charArray = str.toCharArray();

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
-<window height="786" width="1116" x="106" y="94">
+<window height="783" width="1112" x="188" y="121">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -35,13 +35,13 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CaesarCipher.java" partName="CaesarCipher.java" path="/home/lederman17/csc207/CSC207-files/hw01/CaesarCipher/src/CaesarCipher.java" title="CaesarCipher.java" tooltip="CaesarCipher/src/CaesarCipher.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CaesarCipher.java" partName="CaesarCipher.java" path="/home/lederman17/csc207/CSC207-files/hw01/CaesarCipher/src/CaesarCipher.java" title="CaesarCipher.java" tooltip="CaesarCipher/src/CaesarCipher.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CaesarCipher/src/CaesarCipher.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="1563" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="29" selectionOffset="557" selectionTopPixel="336"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VigenereCipher.java" partName="VigenereCipher.java" path="/home/lederman17/csc207/CSC207-files/hw01/VigenereCipher/src/VigenereCipher.java" title="VigenereCipher.java" tooltip="VigenereCipher/src/VigenereCipher.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VigenereCipher.java" partName="VigenereCipher.java" path="/home/lederman17/csc207/CSC207-files/hw01/VigenereCipher/src/VigenereCipher.java" title="VigenereCipher.java" tooltip="VigenereCipher/src/VigenereCipher.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VigenereCipher/src/VigenereCipher.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1687" selectionTopPixel="246"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1029" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -146,43 +146,30 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@5649ec46" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5649ec46" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.66" ratioLeft="429" ratioRight="221" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<info folder="true" part="bottomRight" ratio="0.66" ratioLeft="429" ratioRight="221" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="325" ratioRight="325" relationship="4" relative="topLeft">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="325" ratioRight="325" relationship="4" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -236,9 +223,9 @@
 <new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
 <perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
@@ -268,7 +255,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.79041916" ratioLeft="528" ratioRight="140" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.95338345" ratioLeft="634" ratioRight="31" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -305,16 +292,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CaesarCipher/src/CaesarCipher.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VigenereCipher/src/vigenereCipher.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VigenereCipher/src/VigenereCipher.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CaesarCipher/src/CaesarCipher.java"/>
 </editors>
-<item historyLabel="CaesarCipher.java" index="0">
-<position info="not_deleted" x="31" y="0"/>
-</item>
-<item historyLabel="CaesarCipher.java" index="0">
-<position info="not_deleted" x="26" y="0"/>
-</item>
-<item historyLabel="CaesarCipher.java" index="0">
-<position info="not_deleted" x="96" y="0"/>
-</item>
 <item historyLabel="CaesarCipher.java" index="0">
 <position info="not_deleted" x="1100" y="0"/>
 </item>
@@ -399,8 +378,71 @@
 <item historyLabel="CaesarCipher.java" index="0">
 <position info="not_deleted" x="0" y="1563"/>
 </item>
-<item active="true" historyLabel="VigenereCipher.java" index="2">
+<item historyLabel="VigenereCipher.java" index="2">
 <position info="not_deleted" x="1687" y="0"/>
+</item>
+<item historyLabel="CaesarCipher.java" index="3">
+<position info="not_deleted" x="1607" y="0"/>
+</item>
+<item historyLabel="VigenereCipher.java" index="2">
+<position info="not_deleted" x="1029" y="0"/>
+</item>
+<item historyLabel="CaesarCipher.java" index="3">
+<position info="not_deleted" x="1208" y="13"/>
+</item>
+<item historyLabel="VigenereCipher.java" index="2">
+<position info="not_deleted" x="1183" y="0"/>
+</item>
+<item historyLabel="CaesarCipher.java" index="3">
+<position info="not_deleted" x="1208" y="13"/>
+</item>
+<item historyLabel="VigenereCipher.java" index="2">
+<position info="not_deleted" x="1081" y="0"/>
+</item>
+<item historyLabel="CaesarCipher.java" index="3">
+<position info="not_deleted" x="1208" y="13"/>
+</item>
+<item historyLabel="VigenereCipher.java" index="2">
+<position info="not_deleted" x="1081" y="0"/>
+</item>
+<item historyLabel="CaesarCipher.java" index="3">
+<position info="not_deleted" x="1072" y="47"/>
+</item>
+<item historyLabel="VigenereCipher.java" index="2">
+<position info="not_deleted" x="1219" y="0"/>
+</item>
+<item historyLabel="CaesarCipher.java" index="3">
+<position info="not_deleted" x="56" y="29"/>
+</item>
+<item historyLabel="VigenereCipher.java" index="2">
+<position info="not_deleted" x="97" y="0"/>
+</item>
+<item historyLabel="CaesarCipher.java" index="3">
+<position info="not_deleted" x="557" y="29"/>
+</item>
+<item historyLabel="VigenereCipher.java" index="2">
+<position info="not_deleted" x="242" y="0"/>
+</item>
+<item historyLabel="CaesarCipher.java" index="3">
+<position info="not_deleted" x="557" y="29"/>
+</item>
+<item historyLabel="VigenereCipher.java" index="2">
+<position info="not_deleted" x="1029" y="0"/>
+</item>
+<item historyLabel="CaesarCipher.java" index="3">
+<position info="not_deleted" x="557" y="29"/>
+</item>
+<item historyLabel="VigenereCipher.java" index="2">
+<position info="not_deleted" x="1029" y="0"/>
+</item>
+<item historyLabel="CaesarCipher.java" index="3">
+<position info="not_deleted" x="557" y="29"/>
+</item>
+<item historyLabel="VigenereCipher.java" index="2">
+<position info="not_deleted" x="1029" y="0"/>
+</item>
+<item active="true" historyLabel="CaesarCipher.java" index="3">
+<position info="not_deleted" x="557" y="29"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

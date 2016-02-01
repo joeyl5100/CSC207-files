@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class VigenereCipher {
-	public static final int BASE = (int) 'a';
-
+	public static final int BASE = (int)'a';
+	
 	public static void encrypt(String str, String key) {
 		char[] charArray = str.toCharArray();
 		int keyAddTo, charToInt;
