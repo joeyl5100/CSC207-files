@@ -19,8 +19,7 @@ public class WordGenerator {
 	public String next(){
 		this.wordCount ++;
 		String str = text.next();
-		String lastChar = str.substring(str.length()-1);
-		if (lastChar.equals(".") || lastChar.equals("!") || lastChar.equals("?")){
+		if (str.contains(".") || str.contains("!") || str.contains("?")){
 			sentenceCount++;
 		}
 		return str;
