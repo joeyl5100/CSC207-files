@@ -20,7 +20,7 @@ public class WordGenerator {
 		this.sentenceCount = 0;
 	}
 	/**
-	 * Check to see if Scanner has another token to read
+	 * Checks to see if Scanner has another token to read
 	 * 
 	 * @return true if there is another token, otherwise returns false
 	 */
@@ -51,9 +51,9 @@ public class WordGenerator {
 	}
 
 	/**
-	 * Returns sentence count
+	 * Returns sentence count (that end in '.', '?', or '!')
 	 * 
-	 * @return number of sentences (that end in '.', '?', or '!')
+	 * @return number of sentences
 	 */
 	public int getSentenceCount(){
 		return sentenceCount;
