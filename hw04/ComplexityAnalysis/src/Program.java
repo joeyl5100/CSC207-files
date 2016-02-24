@@ -26,7 +26,7 @@ public class Program {
 	}
 
 	/**
-	 * evaluates and returns the value of the first argument raised to the power 
+	 * evaluates and returns the value of the first argument raised to the power
 	 * of the second argument recursively
 	 * 
 	 * @param x
@@ -42,7 +42,7 @@ public class Program {
 		}
 		int val;
 		if (y % 2 == 0) {
-			val = fastExp(x, y / 2); 
+			val = fastExp(x, y / 2);
 			return val * val;
 		} else {
 			val = fastExp(x, (y - 1) / 2);
@@ -157,17 +157,18 @@ public class Program {
 		 * System.out.println(contains(arr5, 1.0, 1.0));
 		 */
 		// pow
-		System.out.println(Math.pow(2, 10) + " " + fastExp(2, 10));
+		// System.out.println(Math.pow(2, 10) + " " + fastExp(2, 10));
 		/*
 		 * // pairArr int[] arr1 = { 1, 2, 3 }; Pair[] pair1 = allPairs(arr1);
 		 * for (int i = 0; i < pair1.length; i++) { System.out.println("(" +
 		 * pair1[i].getFst() + ", " + pair1[i].getSnd() + ")"); } // concat
 		 * String[] arr2 = { "hello", "world", "!" };
-		 * System.out.println(concatAndReplicateAll(arr2, 3)); // mode int[]
-		 * arr3 = { 0, 5, 2, 3, 3, 5, 5, 9 }; System.out.println("mode: " +
-		 * boundedMode(arr3)); System.out.println("mode: " +
-		 * unboundedMode(arr3));
+		 * System.out.println(concatAndReplicateAll(arr2, 3)); // mode
 		 */
+		int[] arr3 = { 0, 5, 2, 3, 3, 5, 5, 9, 10, 10, 10 };
+		System.out.println("mode: " + boundedMode(arr3));
+		System.out.println("mode: " + unboundedMode(arr3));
+
 	}
 
 }
